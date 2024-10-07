@@ -5,13 +5,13 @@ public class MainTest{
 
     @Test
     public void testReverse1() {
-        String rev = Main.reverse("hello");
+        String rev = Main.reverseString("hello");
         assertEquals(rev,"olleh");
     }
 
     @Test
     public void testReverse2() {
-        String rev = Main.reverse("Austin");
+        String rev = Main.reverseString("Austin");
         assertEquals(rev,"nitsuA");
     }
 
